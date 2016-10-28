@@ -62,7 +62,7 @@ int main(void)
 //******************************************************************************
 
 //******************************************************************************
-void vLedBlinkBlue(void *pvParameters)
+void vLedBlinkGreen(void *pvParameters)
 {
 	for(;;)
 	{
@@ -71,7 +71,7 @@ void vLedBlinkBlue(void *pvParameters)
 	}
 }
 
-void vLedBlinkRed(void *pvParameters)
+void vLedBlinkOrange(void *pvParameters)
 {
 	for(;;)
 	{
@@ -80,7 +80,7 @@ void vLedBlinkRed(void *pvParameters)
 	}
 }
 
-void vLedBlinkGreen(void *pvParameters)
+void vLedBlinkRed(void *pvParameters)
 {
 	for(;;)
 	{
@@ -89,7 +89,7 @@ void vLedBlinkGreen(void *pvParameters)
 	}
 }
 
-void vLedBlinkOrange(void *pvParameters)
+void vLedBlinkBlue(void *pvParameters)
 {
 	for(;;)
 	{
