@@ -335,7 +335,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>.\Libraries\CMSIS\Device\ST\STM32F4xx\Include;.\Libraries\STM32F4xx_StdPeriph_Driver\inc;.\FreeRTOS\Source\portable\RVDS\ARM_CM4F;.\FreeRTOS\Source\include;.\Include</IncludePath>
+              <IncludePath>.\Libraries\STM32F4xx_StdPeriph_Driver\inc;.\Libraries\CMSIS\Device\ST\STM32F4xx\Include;.\FreeRTOS\Source\portable\RVDS\ARM_CM4F;.\FreeRTOS\Source\include;.\Include;..\STM32F4</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -377,7 +377,7 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>main</GroupName>
+          <GroupName>Main</GroupName>
           <Files>
             <File>
               <FileName>main.c</FileName>
@@ -630,6 +630,9 @@
               <FilePath>.\FreeRTOS\Source\list.c</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>Source</GroupName>
         </Group>
         <Group>
           <GroupName>::CMSIS</GroupName>

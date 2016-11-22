@@ -67,7 +67,7 @@ void vLedBlinkGreen(void *pvParameters)
 	for(;;)
 	{
 		GPIO_ToggleBits(GPIOD, GPIO_Pin_12);
-		vTaskDelay( 500 / portTICK_RATE_MS );
+		vTaskDelay( 250 / portTICK_RATE_MS );
 	}
 }
 
@@ -75,8 +75,8 @@ void vLedBlinkOrange(void *pvParameters)
 {
 	for(;;)
 	{
-		GPIO_ToggleBits(GPIOD, GPIO_Pin_13);
-		vTaskDelay( 750 / portTICK_RATE_MS );
+        GPIO_ToggleBits(GPIOD, GPIO_Pin_13);
+		vTaskDelay( 500 / portTICK_RATE_MS );
 	}
 }
 
@@ -85,7 +85,7 @@ void vLedBlinkRed(void *pvParameters)
 	for(;;)
 	{
 		GPIO_ToggleBits(GPIOD, GPIO_Pin_14);
-		vTaskDelay( 250 / portTICK_RATE_MS );
+		vTaskDelay( 750 / portTICK_RATE_MS );
 	}
 }
 
@@ -94,7 +94,7 @@ void vLedBlinkBlue(void *pvParameters)
 	for(;;)
 	{
 		GPIO_ToggleBits(GPIOD, GPIO_Pin_15);
-		vTaskDelay( 900 / portTICK_RATE_MS );
+		vTaskDelay( 1000 / portTICK_RATE_MS );
 	}
 }
 //******************************************************************************

@@ -26,8 +26,8 @@
       (#) CAN pins configuration
         (++) Enable the clock for the CAN GPIOs using the following function:
              RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOx, ENABLE);   
-        (++) Connect the involved CAN pins to AF9 using the following function 
-             GPIO_PinAFConfig(GPIOx, GPIO_PinSourcex, GPIO_AF_CANx); 
+        (++) Connect the involved CAN pins to AF9 using the following function
+             GPIO_PinAFConfig(GPIOx, GPIO_PinSourcex, GPIO_AF_CANx);
         (++) Configure these CAN pins in alternate function mode by calling
              the function  GPIO_Init();
       
