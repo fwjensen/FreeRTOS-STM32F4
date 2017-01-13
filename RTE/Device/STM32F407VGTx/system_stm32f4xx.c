@@ -207,7 +207,6 @@ void SystemInit(void)
 	
 	/*Set all systemclocks and periperal clocks*/
 	SetSysClock();
-	SystemCoreClockUpdate();
 	
   /* Configure the Vector Table location add offset address ------------------*/
 #ifdef VECT_TAB_SRAM
